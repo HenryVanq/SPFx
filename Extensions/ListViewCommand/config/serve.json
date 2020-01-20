@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cloudlabgr.sharepoint.com/sites/Vang/Lists/ListCommand/AllItems.aspx",
+      "customActions": {
+        "429e8b1f-a286-4ebf-99d7-fe529f3cc7dc": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "listView": {
+      "pageUrl": "https://cloudlabgr.sharepoint.com/sites/Vang/Lists/ListCommand/AllItems.aspx",
+      "customActions": {
+        "429e8b1f-a286-4ebf-99d7-fe529f3cc7dc": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

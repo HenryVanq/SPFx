@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="GetLogs"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="24cc877b-7291-4cdc-9bd1-ba5330ef70bc"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
